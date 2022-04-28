@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -11,11 +11,24 @@ body {
 }
 
 .bg {
-  background: url('https://images3.alphacoders.com/931/thumb-1920-931616.png')
+  background: url('https://wallpapers-hub.art/wallpaper-images/268132.jpg')
   no-repeat center center/cover;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vh;
-  height: 100vh;
+  top: -8px;
+  left: -8px;
+  width: calc(100% + 18px);
+  height: calc(100vh + 18px);
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.loading-text {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px white,
+  1px 0px 0px white,
+  1px -1px 0px white,
+  -1px 1px 0px white,
+  -1px 0px 0px white,
+  -1px -1px 0px white;
 }
